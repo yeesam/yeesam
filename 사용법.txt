@@ -1,0 +1,19 @@
+1. npm install express oracledb@5.2.0 xml2js axios mssql --save mssql pm2 node-cron –g
+> 패키지 전역으로 설정 필요(안되면 -g 빼고 한번더 실행)
+
+2. windows PowerShell 에서 Get-ExecutionPolicy
+> RemoteSigned 이 아닌경우 세팅 해주어야 함
+> 아닌경우 Set-ExecutionPolicy RemoteSigned
+
+3. pm2 start app.js 으로 데몬 실행
+> pm2 monit로 로그 확인
+
+4. config 파일 셋팅
+- apiConfig.json //API(GET, POST) 설정
+- databaseConfig.json //DB접속정보
+- configUrl.json //Api 통신 서버 설정
+- sqlQueries.json //SQL 쿼리 작성
+- oracleCol.json //API ORACLE 받아올 칼럼 설정
+- columns.json //API 받아온 데이터 값 매핑
+- mssqlSP.json //MSSQL 프로시저 선언
+- statusConfig.json//결과코드 설정
