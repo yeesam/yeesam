@@ -1,0 +1,15 @@
+{
+  "mssql": {
+    "storedProcedure": {
+      "name": "SP_Api_Test", 
+      "parameters": [
+        { "name": "param1", "type": "mssql.VarChar" },
+        { "name": "param2", "type": "mssql.VarChar" },
+        { "name": "param3", "type": "mssql.VarChar" },
+        { "name": "param4", "type": "mssql.VarChar" },
+        { "name": "param5", "type": "mssql.Decimal" },
+        { "name": "param6", "type": "mssql.DateTime" }
+      ]
+    }
+  }
+}

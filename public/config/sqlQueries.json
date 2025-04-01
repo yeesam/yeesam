@@ -1,0 +1,7 @@
+{
+  "oracle": {
+    "getSalesData": {
+      "query": "SELECT :columns FROM 테이블 WHERE 인덱스 LIKE '&&' AND REG_DT BETWEEN TO_TIMESTAMP_TZ(:lastCheckedTime, 'YYYY-MM-DD\"T\"HH24:MI:SS.FF3\"+09:00\"') AND TO_TIMESTAMP_TZ(:kstDate, 'YYYY-MM-DD\"T\"HH24:MI:SS.FF3\"+09:00\"') AND ROWNUM <= 1000"
+    }
+  }
+}

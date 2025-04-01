@@ -1,0 +1,4 @@
+{
+    "getDataEndpoint": "/api/getData",
+    "submitDataEndpoint": "/api/submitData"
+  }

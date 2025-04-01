@@ -1,0 +1,13 @@
+{
+    "oracle": {
+      "salesColumns": [
+        { "xmlTag": "칼럼 1" },
+        { "xmlTag": "칼럼 2" },
+        { "xmlTag": "칼럼 3" },
+        { "xmlTag": "칼럼 4" },
+        { "xmlTag": "칼럼 5" },
+        { "xmlTag": "칼럼 6" }
+      ]
+    }
+  }
+  

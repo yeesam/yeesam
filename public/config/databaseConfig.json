@@ -1,0 +1,18 @@
+{
+  "oracle": {
+    "user": "아이디",
+    "password": "비번",
+    "connectString": "오라클:포트/이름"
+  },
+  "mssql": {
+    "user": "아이디",
+    "password": "비번",
+    "server": "mssqlip",
+    "port": 12345,
+    "database": "디비이름",
+    "options": {
+      "encrypt": true,
+      "trustServerCertificate": true
+    }
+  }
+}
